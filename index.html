@@ -5,9 +5,13 @@
     <link rel="icon" type="image/svg+xml" href="/team/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     
-    <script type="module" crossorigin src="/team/assets/index-940af226.js"></script>
-    <link rel="stylesheet" href="/team/assets/index-b4d97de4.css">
+    <script type="module" crossorigin src="/team/assets/index-17c83915.js"></script>
+    <link rel="stylesheet" href="/team/assets/index-7a5d3117.css">
   </head>
   <body>
     <header class="header">
@@ -36,8 +40,30 @@
   </p>
 </section>
 
-    
+    <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="/team/assets/1-9c1cda81.jpg" /></div>
+    <div class="swiper-slide"><img src="/team/assets/2-0125b31f.jpg" /></div>
+    <div class="swiper-slide"><img src="/team/assets/3-00ea4272.jpg" /></div>
+    <div class="swiper-slide"><img src="/team/assets/4-aaec3515.jpg" /></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
 
+  <!-- If we need navigation buttons -->
+  <!-- <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div> -->
+
+  <!-- If we need scrollbar -->
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
   </body>
 </html>
